@@ -300,6 +300,4 @@ sudo ip tuntap del mode tap tap2
 
 ---
 
-## Conclusion
-
 By following this guide, you can set up and configure dynamic routing in a virtualized environment using QEMU and Quagga. This setup allows you to simulate real-world networking scenarios and understand how dynamic routing protocols like RIP, OSPF, and BGP work. Dynamic routing offers flexibility and efficiency, making it suitable for complex and large-scale networks.
