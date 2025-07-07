@@ -2428,4 +2428,6 @@ By following these scripts and enabling IP forwarding, you can effectively simul
 - [Virtualization Host Configuration and Guest Installation Guide](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/6/html/virtualization_host_configuration_and_guest_installation_guide/index#idm140270648332048)
 - [Virtio: An I/O virtualization framework for Linux](https://developer.ibm.com/articles/l-virtio/)
 
+---
+
 By following these steps and explanations, you will have a comprehensive understanding of networking, virtual network devices, and practical implementation using scripts. This guide aims to cover both theoretical and practical aspects to provide a holistic view of networking in Linux environments.
