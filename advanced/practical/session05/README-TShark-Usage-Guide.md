@@ -321,8 +321,10 @@ Filter and analyze ICMP traffic:
 tshark -r capture.pcap -Y "icmp" -T fields -e frame.time -e ip.src -e ip.dst -e icmp.type -e icmp.code
 ```
 
-## Conclusion
+---
 
 TShark is a powerful command-line tool for network traffic capture and analysis. It offers many features for filtering, saving, and analyzing network packets. By mastering TShark, you can perform comprehensive network diagnostics and gain deeper insights into network behavior.
+
+---
 
 For more detailed information and advanced usage, refer to the [TShark documentation](https://www.wireshark.org/docs/man-pages/tshark.html).
