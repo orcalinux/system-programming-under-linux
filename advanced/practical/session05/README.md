@@ -1,4 +1,4 @@
-# Comprehensive README for Network Virtualization and Debugging Session
+# Network Virtualization and Debugging Session
 
 ## Overview
 
