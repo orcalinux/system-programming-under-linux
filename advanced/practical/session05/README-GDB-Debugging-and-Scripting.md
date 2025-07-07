@@ -12,7 +12,6 @@
 8. [Applying GDB Commands](#applying-gdb-commands)
 9. [Best Practices](#best-practices)
 10. [Resources](#resources)
-11. [Conclusion](#conclusion)
 
 ## Introduction to GDB
 
@@ -649,6 +648,6 @@ Here are some valuable resources for further reading and understanding:
    - [Debugging C Programs](https://youtube.com/playlist?list=PL9IEJIKnBJjHGWPN_S9NS_Ky1-tC8ZrUI&si=5IcasU46WdLITYzS)
    - [Debug Running Python Processes with GDB](https://www.youtube.com/watch?v=ZqpaKkIjU80)
 
-## Conclusion
+---
 
 Mastering GDB and GDB scripting can significantly enhance your debugging skills and efficiency. Start with the basics, gradually explore advanced features, and leverage scripting to automate and extend GDB’s capabilities. Continuous practice and learning will help you become proficient in using GDB for complex debugging tasks.
