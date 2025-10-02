@@ -149,6 +149,12 @@ General Linux learning and administration materials.
   **Used for:** Managing UNIX and Linux systems professionally.  
   **Knowledge gained:** System administration best practices, configuration management, and enterprise-level Linux operations.
 
+- **[How Linux Works: What Every Superuser Should Know](./Linux_Guides/How_Linux_Works_What_Every_Superuser_Should_Know.pdf)**  
+  _Brian Ward_  
+  Understanding Linux internals.  
+  **Used for:** Deep comprehension of Linux system operations.  
+  **Knowledge gained:** Linux kernel concepts, system architecture, and internal workings.
+
 - **[Linux From Scratch](./Linux_Guides/Linux_From_Scratch_Book.pdf)**  
   _Build Linux from source_  
   **Used for:** Custom Linux system creation.  
