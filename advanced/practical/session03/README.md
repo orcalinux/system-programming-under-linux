@@ -225,7 +225,3 @@ After building the image with Yocto, it is recommended to save the kernel and ro
 - [Yocto Project Documentation](https://docs.yoctoproject.org/index.html)
 - [Yocto Project Releases](https://wiki.yoctoproject.org/wiki/Releases)
 - [Yocto Project Overview Video](https://youtu.be/8M8U1EgnUVw?si=1cH194i2Bgcd8TZJ)
-
----
-
-By following these steps, you will be able to set up and work with Yocto to create custom Linux distributions tailored to your needs. This guide covers the essentials of installing prerequisites, downloading and setting up Yocto, building images, adding additional layers, and using QEMU Monitor for managing your virtual machines.
