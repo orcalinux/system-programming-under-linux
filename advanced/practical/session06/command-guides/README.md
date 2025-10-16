@@ -50,7 +50,3 @@ Text processing guides focus on the use of `sed`, `awk`, and other text processi
 - **Navigating the Directories**: Each directory contains a specific aspect of command-line operations, scripting, or text processing. Navigate through the directories based on the topic of interest.
 - **Testing Commands**: You can test most of the commands in the guides directly in your terminal. For regex-related commands, consider using `echo "text" | grep "pattern"` to quickly see the results.
 - **Further Reading**: If you're new to any of the topics, start with the introductory guides. As you gain more familiarity, explore the advanced usage and practical examples provided in each guide.
-
-## Contributing
-
-If you have suggestions for improvements or additional topics to cover, feel free to contribute to this repository. Contributions are welcome and encouraged to help make this collection even more comprehensive.
