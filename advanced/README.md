@@ -72,7 +72,3 @@ Special sessions dedicated to fundamental computer science concepts necessary fo
 **Topics Include:**
 - Implementation of classes and objects in non-object-oriented languages like C, with parallels drawn in C++, Python, and JavaScript.
 - Additional fundamental topics necessary for a rounded understanding of system programming.
-
----
-
-Each topic is paired with practical labs and real-world examples to enhance learning and retention, making it ideal for those aiming to deepen their understanding of Linux internals and system programming.
