@@ -110,7 +110,3 @@ This section focuses on regular expressions and wildcards, which are essential t
 ### Detailed Guide
 
 Refer to the individual README file for comprehensive instructions and examples on using regular expressions and wildcards.
-
----
-
-This README provides a high-level overview of the session and directs you to detailed guides for each major topic. For specific implementations and examples, please refer to the individual README files associated with each section.
