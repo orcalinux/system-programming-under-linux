@@ -174,7 +174,3 @@ Vim is a powerful text editor. This guide covers basic concepts, editing text, a
 ### Detailed Guide
 
 Refer to the individual README file for detailed instructions on mastering Vim.
-
----
-
-This README provides a high-level overview of the session and directs you to detailed guides for each major topic. For specific implementations and examples, please refer to the individual README files associated with each section.
