@@ -17,7 +17,6 @@ This README provides a structured guide to setting up and managing containers us
 5. [Configuring Registries](#configuring-registries)
 6. [Using Docker](#using-docker)
 7. [Community and Support](#community-and-support)
-8. [Conclusion](#conclusion)
 
 ---
 
