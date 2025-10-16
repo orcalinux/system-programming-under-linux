@@ -104,5 +104,3 @@ This training provided a solid foundation in Linux systems programming, covering
 - [Linux Command Line and Shell Scripting Bible](https://www.wiley.com/en-us/Linux+Command+Line+and+Shell+Scripting+Bible,+3rd+Edition-p-9781118983843)
 - [Advanced Programming in the UNIX Environment](https://www.apuebook.com/)
 - [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/)
-
-Each topic is paired with practical labs and real-world examples to enhance learning and retention, making it ideal for those aiming to deepen their understanding of Linux internals and system programming.
