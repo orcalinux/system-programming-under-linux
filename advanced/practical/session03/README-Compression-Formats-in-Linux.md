@@ -195,7 +195,3 @@ The `zip` format is widely used for compressing files and directories. It is com
 - [xz Utils Documentation](https://tukaani.org/xz/)
 - [zip Manual](http://infozip.sourceforge.net/)
 - [unzip Manual](http://infozip.sourceforge.net/)
-
----
-
-By following this guide, you can efficiently manage file compression and extraction in Linux using various formats. Whether it's archiving files for storage or transferring compressed data, these commands will help you handle different compression formats effectively.
