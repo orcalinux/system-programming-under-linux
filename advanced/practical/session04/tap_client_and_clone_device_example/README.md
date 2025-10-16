@@ -12,7 +12,6 @@ This guide explores how virtual machines (VMs) interact with TAP (Network TAP) d
 4. [C Program Explanation](#c-program-explanation)
 5. [Compiling and Running the Program](#compiling-and-running-the-program)
 6. [Resources](#resources)
-7. [Conclusion](#conclusion)
 
 ---
 
@@ -323,7 +322,3 @@ The provided C program (`tapClient.c`) demonstrates how to create and use a TAP 
 - [ioctl Manual](http://man7.org/linux/man-pages/man2/ioctl.2.html)
 - [QEMU Documentation](https://www.qemu.org/documentation/)
 - [Network Programming Guide](https://www.oreilly.com/library/view/linux-network-programming/9780596002558/)
-
-## Conclusion
-
-By following this guide, you can create and use TAP devices to connect virtual machines, similar to how QEMU achieves network connectivity. The provided C program demonstrates the basic operations for creating, reading from, and writing to a TAP device. This setup is essential for simulating network environments and testing network applications in virtualized environments. The concept of clone devices in Linux is crucial for kernel developers, enabling dynamic creation and management of network interfaces for enhanced flexibility and control.
