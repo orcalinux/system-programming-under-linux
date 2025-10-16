@@ -25,8 +25,7 @@ Linux namespaces provide a way to create isolation for various system resources.
    - [Creating a Network Namespace](#creating-a-network-namespace)
    - [Creating a Mount Namespace](#creating-a-mount-namespace)
 5. [Adding Namespaces to Containers](#adding-namespaces-to-containers)
-6. [Conclusion](#conclusion)
-7. [References](#references)
+6. [References](#references)
 
 ---
 
@@ -341,14 +340,6 @@ podman run -it --name my-container --hostname my-container --network none ubuntu
  the current process.
 - **Flexibility:** `unshare` is useful for modifying the namespace environment of the current process or shell, whereas `clone` is better suited for creating a new process in new namespaces.
 - **Complexity:** `clone` involves more setup since it requires providing a new stack for the child process, whereas `unshare` is simpler for modifying the current process.
-
----
-
-## Conclusion
-
-Linux namespaces are a powerful feature that provides isolation for various system resources, allowing for the creation of lightweight containers and sandboxed environments. This README covered the eight types of namespaces, how to create them using different syscalls, provided comprehensive code examples, and explained how to add namespaces to containers. Additionally, it highlighted the differences between `clone` and `unshare`.
-
-By understanding and utilizing namespaces, you can enhance the security and isolation of processes in Linux, creating more robust and manageable systems.
 
 ---
 
