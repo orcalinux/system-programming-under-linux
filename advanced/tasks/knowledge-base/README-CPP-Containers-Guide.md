@@ -21,12 +21,12 @@ This guide covers key C++ containers, including **full code examples** for commo
 
 ## Containers Overview
 
-| Container       | Characteristics                                     | Lookup Time | Insertion Time | Allows Duplicates | Ordered |
-|-----------------|-----------------------------------------------------|-------------|----------------|-------------------|---------|
-| **Vector**      | Dynamic array, indexed by position                  | `O(1)`      | `O(1)` (end)   | Yes               | No      |
-| **Unordered Set** | Stores unique items with hash-based lookup       | `O(1)`      | `O(1)`         | No                | No      |
-| **Unordered Map** | Key-value pairs with hash-based lookup           | `O(1)`      | `O(1)`         | No (unique keys)  | No      |
-| **Map**          | Key-value pairs with tree-based lookup            | `O(log n)`  | `O(log n)`     | No (unique keys)  | Yes     |
+| Container         | Characteristics                            | Lookup Time | Insertion Time | Allows Duplicates | Ordered |
+| ----------------- | ------------------------------------------ | ----------- | -------------- | ----------------- | ------- |
+| **Vector**        | Dynamic array, indexed by position         | `O(1)`      | `O(1)` (end)   | Yes               | No      |
+| **Unordered Set** | Stores unique items with hash-based lookup | `O(1)`      | `O(1)`         | No                | No      |
+| **Unordered Map** | Key-value pairs with hash-based lookup     | `O(1)`      | `O(1)`         | No (unique keys)  | No      |
+| **Map**           | Key-value pairs with tree-based lookup     | `O(log n)`  | `O(log n)`     | No (unique keys)  | Yes     |
 
 ---
 
@@ -36,16 +36,16 @@ An `unordered_map` is a hash-based dictionary that stores unique keys associated
 
 ### Commonly Used Functions
 
-| Function                    | Description                    | Example Usage               |
-|-----------------------------|--------------------------------|-----------------------------|
-| `insert({key, value})`      | Inserts a key-value pair      | `myMap.insert({1, "Alice"});` |
-| `erase(key)`                | Removes a key-value pair      | `myMap.erase(1);`           |
-| `find(key)`                 | Finds element by key          | `if (myMap.find(1) != myMap.end()) {}` |
-| `size()`                    | Returns the number of pairs   | `size_t n = myMap.size();`  |
-| `clear()`                   | Removes all pairs             | `myMap.clear();`            |
-| `empty()`                   | Checks if map is empty        | `bool isEmpty = myMap.empty();` |
-| `count(key)`                | Checks if key exists          | `if (myMap.count(1)) {}`    |
-| `operator[key]`             | Accesses value by key         | `std::string name = myMap[1];` |
+| Function               | Description                 | Example Usage                          |
+| ---------------------- | --------------------------- | -------------------------------------- |
+| `insert({key, value})` | Inserts a key-value pair    | `myMap.insert({1, "Alice"});`          |
+| `erase(key)`           | Removes a key-value pair    | `myMap.erase(1);`                      |
+| `find(key)`            | Finds element by key        | `if (myMap.find(1) != myMap.end()) {}` |
+| `size()`               | Returns the number of pairs | `size_t n = myMap.size();`             |
+| `clear()`              | Removes all pairs           | `myMap.clear();`                       |
+| `empty()`              | Checks if map is empty      | `bool isEmpty = myMap.empty();`        |
+| `count(key)`           | Checks if key exists        | `if (myMap.count(1)) {}`               |
+| `operator[key]`        | Accesses value by key       | `std::string name = myMap[1];`         |
 
 ### Examples
 
@@ -163,12 +163,12 @@ This example combines insertion, deletion, and iteration on an `unordered_map` r
 
 int main() {
     std::unordered_map<int, std::string> studentGrades;
-    
+
     // Insert student grades
     studentGrades[101] = "A";
     studentGrades[102] = "B";
     studentGrades[103] = "C";
-    
+
     // Update a grade
     studentGrades[102] = "A";
 
@@ -180,7 +180,7 @@ int main() {
     for (const auto& [id, grade] : studentGrades) {
         std::cout << "ID: " << id << ", Grade: " << grade << std::endl;
     }
-    
+
     return 0;
 }
 // Output:
@@ -197,16 +197,16 @@ A `map` (ordered map) is a tree-based dictionary that stores unique keys with as
 
 ### Commonly Used Functions
 
-| Function                    | Description                    | Example Usage               |
-|-----------------------------|--------------------------------|-----------------------------|
-| `insert({key, value})`      | Inserts a key-value pair      | `myMap.insert({1, "Alice"});` |
-| `erase(key)`                | Removes a key-value pair      | `myMap.erase(1);`           |
-| `find(key)`                 | Finds element by key          | `if (myMap.find(1) != myMap.end()) {}` |
-| `size()`                    | Returns the number of pairs   | `size_t n = myMap.size();`  |
-| `clear()`                   | Removes all pairs             | `myMap.clear();`            |
-| `empty()`                   | Checks if map is empty        | `bool isEmpty = myMap.empty();` |
-| `count(key)`                | Checks if key exists          | `if (myMap.count(1)) {}`    |
-| `operator[key]`             | Accesses value by key         | `std::string name = myMap[1];` |
+| Function               | Description                 | Example Usage                          |
+| ---------------------- | --------------------------- | -------------------------------------- |
+| `insert({key, value})` | Inserts a key-value pair    | `myMap.insert({1, "Alice"});`          |
+| `erase(key)`           | Removes a key-value pair    | `myMap.erase(1);`                      |
+| `find(key)`            | Finds element by key        | `if (myMap.find(1) != myMap.end()) {}` |
+| `size()`               | Returns the number of pairs | `size_t n = myMap.size();`             |
+| `clear()`              | Removes all pairs           | `myMap.clear();`                       |
+| `empty()`              | Checks if map is empty      | `bool isEmpty = myMap.empty();`        |
+| `count(key)`           | Checks if key exists        | `if (myMap.count(1)) {}`               |
+| `operator[key]`        | Accesses value by key       | `std::string name = myMap[1];`         |
 
 ### Examples
 
@@ -237,7 +237,7 @@ int main() {
 
 #### Intermediate
 
- Example
+Example
 
 ```cpp
 #include <iostream>
@@ -321,12 +321,12 @@ This example combines insertion, deletion, and iteration on a `map` representing
 
 int main() {
     std::map<int, double> productPrices;
-    
+
     // Insert product prices
     productPrices[1001] = 19.99;
     productPrices[1002] = 29.99;
     productPrices[1003] = 39.99;
-    
+
     // Update a price
     productPrices[1002] = 24.99;
 
@@ -338,7 +338,7 @@ int main() {
     for (const auto& [id, price] : productPrices) {
         std::cout << "ID: " << id << ", Price: $" << price << std::endl;
     }
-    
+
     return 0;
 }
 // Output:

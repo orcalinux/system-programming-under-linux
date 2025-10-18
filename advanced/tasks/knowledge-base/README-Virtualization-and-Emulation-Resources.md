@@ -2,16 +2,18 @@
 
 ## Table of Contents
 
-1. [Core Knowledge and Foundational Texts](#core-knowledge-and-foundational-texts)
-2. [Step-by-Step Tutorials and Practical Guides](#step-by-step-tutorials-and-practical-guides)
-3. [Technical Documentation on Processor Architectures](#technical-documentation-on-processor-architectures)
-4. [Advanced Concepts: Dynamic Binary Translation and JIT Compilation](#advanced-concepts-dynamic-binary-translation-and-jit-compilation)
-5. [QEMU: Source Code and Developer Documentation](#qemu-source-code-and-developer-documentation)
-6. [Virtualization and Hypervisor-Specific Documentation](#virtualization-and-hypervisor-specific-documentation)
-7. [Open-Source Emulator Projects for Learning and Contribution](#open-source-emulator-projects-for-learning-and-contribution)
-8. [Communities and Discussion Forums](#communities-and-discussion-forums)
-9. [Video Tutorials and YouTube Channels](#video-tutorials-and-youtube-channels)
-10. [Research Papers and Academic Resources](#research-papers-and-academic-resources)
+- [Comprehensive Resources for Virtual Machine and Emulator Development](#comprehensive-resources-for-virtual-machine-and-emulator-development)
+  - [Table of Contents](#table-of-contents)
+  - [1. Core Knowledge and Foundational Texts](#1-core-knowledge-and-foundational-texts)
+  - [2. Step-by-Step Tutorials and Practical Guides](#2-step-by-step-tutorials-and-practical-guides)
+  - [3. Technical Documentation on Processor Architectures](#3-technical-documentation-on-processor-architectures)
+  - [4. Advanced Concepts: Dynamic Binary Translation and JIT Compilation](#4-advanced-concepts-dynamic-binary-translation-and-jit-compilation)
+  - [5. QEMU: Source Code and Developer Documentation](#5-qemu-source-code-and-developer-documentation)
+  - [6. Virtualization and Hypervisor-Specific Documentation](#6-virtualization-and-hypervisor-specific-documentation)
+  - [7. Open-Source Emulator Projects for Learning and Contribution](#7-open-source-emulator-projects-for-learning-and-contribution)
+  - [8. Communities and Discussion Forums](#8-communities-and-discussion-forums)
+  - [9. Video Tutorials and YouTube Channels](#9-video-tutorials-and-youtube-channels)
+  - [10. Research Papers and Academic Resources](#10-research-papers-and-academic-resources)
 
 ---
 
@@ -44,9 +46,10 @@ These hands-on tutorials guide you through building simple emulators and progres
 - **Chip-8 Emulator Tutorial**  
    _Platform_: Online Guide  
    _Description_: Chip-8 is a simple virtual machine with a basic instruction set, making it ideal for beginners in emulation.  
-   _Resources_:  
-   - [Austin Morlan’s Chip-8 Emulator Guide](https://austinmorlan.com/posts/chip8_emulator/)  
-   - [Laurence Muller’s Guide to Chip-8](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/)
+   _Resources_:
+
+  - [Austin Morlan’s Chip-8 Emulator Guide](https://austinmorlan.com/posts/chip8_emulator/)
+  - [Laurence Muller’s Guide to Chip-8](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/)
 
 - **Game Boy Emulator Guide**  
    _Platform_: Game Boy Pan Docs  
@@ -111,9 +114,10 @@ Hardware-assisted virtualization techniques, like Intel VT-x and AMD-V, enhance 
 
 - **Intel VT-x and AMD-V Documentation**  
    _Description_: Official documentation covering hardware virtualization instructions, essential for high-performance virtual machines.  
-   _Resources_:  
-   - [Intel VT-x Documentation](https://www.intel.com/content/www/us/en/architecture-and-technology/virtualization/virtualization-technology.html)  
-   - [AMD-V Documentation](https://developer.amd.com/resources/developer-guides-manuals/)
+   _Resources_:
+
+  - [Intel VT-x Documentation](https://www.intel.com/content/www/us/en/architecture-and-technology/virtualization/virtualization-technology.html)
+  - [AMD-V Documentation](https://developer.amd.com/resources/developer-guides-manuals/)
 
 - **KVM (Kernel-based Virtual Machine) Documentation**  
    _Description_: KVM enables Linux to function as a hypervisor. This resource explains KVM’s implementation, ideal for developers building virtualized environments on Linux.  

@@ -6,12 +6,15 @@ This guide provides step-by-step instructions to download CentOS using Docker an
 
 ## Table of Contents
 
-1. [Install Required Packages](#install-required-packages)
-2. [Download CentOS with Docker](#download-centos-with-docker)
-3. [Configure the CentOS Container](#configure-the-centos-container)
-4. [Start the CentOS Container](#start-the-centos-container)
-5. [Enter the CentOS Container](#enter-the-centos-container)
-6. [Additional Notes](#additional-notes)
+- [Setting Up and Running a CentOS Container on Ubuntu using Docker and Systemd-nspawn](#setting-up-and-running-a-centos-container-on-ubuntu-using-docker-and-systemd-nspawn)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Install Required Packages](#install-required-packages)
+  - [Download CentOS with Docker](#download-centos-with-docker)
+  - [Configure the CentOS Container](#configure-the-centos-container)
+  - [Start the CentOS Container](#start-the-centos-container)
+  - [Enter the CentOS Container](#enter-the-centos-container)
+  - [Additional Notes](#additional-notes)
 
 ---
 

@@ -4,14 +4,20 @@
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Project Structure](#project-structure)
-3. [Features](#features)
-4. [Build and Run](#build-and-run)
-5. [Usage](#usage)
-6. [Configuration](#configuration)
-7. [Contributing](#contributing)
-8. [License](#license)
+- [VariadicCommandProcessor](#variadiccommandprocessor)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Project Structure](#project-structure)
+  - [Features](#features)
+  - [Build and Run](#build-and-run)
+    - [Prerequisites](#prerequisites)
+    - [Build](#build)
+    - [Run](#run)
+    - [Clean](#clean)
+  - [Usage](#usage)
+  - [Configuration](#configuration)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Project Overview
 

@@ -2,13 +2,21 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Getting Started](#getting-started)
-4. [Requirements](#requirements)
-5. [Usage](#usage)
-6. [Resources](#resources)
-7. [License](#license)
+- [Embedded Linux with QEMU Bootlin](#embedded-linux-with-qemu-bootlin)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Project Structure](#project-structure)
+  - [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+    - [Ubuntu/Debian](#ubuntudebian)
+    - [Fedora](#fedora)
+    - [Arch Linux](#arch-linux)
+  - [Usage](#usage)
+    - [Running QEMU](#running-qemu)
+    - [Building the Kernel](#building-the-kernel)
+    - [Debugging](#debugging)
+  - [Resources](#resources)
+  - [License](#license)
 
 ## Introduction
 
@@ -28,6 +36,7 @@ embedded-linux-bootlin/
 To get started with this project, follow these steps:
 
 1. **Download and extract the lab files:**
+
    ```sh
    tar -xf embedded-linux-qemu-labs.tar.xz -C /path/to/extract/
    ```
@@ -51,17 +60,20 @@ To work through the exercises in this project, you need the following tools inst
 You can install these tools using the following commands:
 
 ### Ubuntu/Debian
+
 ```sh
 sudo apt-get update
 sudo apt-get install qemu gcc make
 ```
 
 ### Fedora
+
 ```sh
 sudo dnf install qemu gcc make
 ```
 
 ### Arch Linux
+
 ```sh
 sudo pacman -S qemu gcc make
 ```
@@ -81,11 +93,13 @@ qemu-system-x86_64 -kernel /path/to/kernel -initrd /path/to/initrd -append "root
 To compile and build the Linux kernel for QEMU, you need to configure it properly:
 
 1. **Navigate to the kernel source directory:**
+
    ```sh
    cd /path/to/linux-source
    ```
 
 2. **Configure the kernel:**
+
    ```sh
    make menuconfig
    ```
@@ -116,4 +130,3 @@ Here are some valuable resources for further reading and understanding:
 ## License
 
 This project is licensed under the [GPL License](../../../LICENSE).
-
