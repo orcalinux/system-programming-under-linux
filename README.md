@@ -6,27 +6,29 @@ During my training with STMicroelectronics, I underwent an extensive learning jo
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Training Content](#training-content)
-   - [Part 1: Introductory Training](#part-1-introductory-training)
-     - [Linux History](#linux-history)
-     - [Command Line Usage and Build Process](#command-line-usage-and-build-process)
-     - [Process Management](#process-management)
-     - [User Management](#user-management)
-     - [Filesystem Management](#filesystem-management)
-   - [Part 2: Intermediate Training](#part-2-intermediate-training)
-     - [The Linux Programming Interface](#the-linux-programming-interface)
-     - [Project: Linux Memory Manager](#project-linux-memory-manager)
-   - [Part 3: Advanced Training](#part-3-advanced-training)
-     - [Introduction to Assembly Language](#introduction-to-assembly-language)
-     - [Tutorial on POSIX Threads](#tutorial-on-posix-threads)
-     - [Signals as a Means of Interprocess Communications](#signals-as-a-means-of-interprocess-communications)
-     - [Introduction to Kernel Modules](#introduction-to-kernel-modules)
-     - [Building Embedded Linux File Systems and Kernel using Yocto Build System](#building-embedded-linux-file-systems-and-kernel-using-yocto-build-system)
-     - [Kernel Namespaces and Container Software](#kernel-namespaces-and-container-software)
-     - [Fundamentals of TCP/IP and Socket Programming](#fundamentals-of-tcpip-and-socket-programming)
-3. [Skills Acquired](#skills-acquired)
-4. [Instructor Information](#instructor-information)
+- [Training with STMicroelectronics - System Programming under Linux](#training-with-stmicroelectronics---system-programming-under-linux)
+  - [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+  - [Training Content](#training-content)
+    - [Part 1: Introductory Training](#part-1-introductory-training)
+      - [Linux History](#linux-history)
+      - [Command Line Usage and Build Process](#command-line-usage-and-build-process)
+      - [Process Management](#process-management)
+      - [User Management](#user-management)
+      - [Filesystem Management](#filesystem-management)
+    - [Part 2: Intermediate Training](#part-2-intermediate-training)
+      - [The Linux Programming Interface](#the-linux-programming-interface)
+      - [Project: Linux Memory Manager](#project-linux-memory-manager)
+    - [Part 3: Advanced Training](#part-3-advanced-training)
+      - [Introduction to Assembly Language](#introduction-to-assembly-language)
+      - [Tutorial on POSIX Threads](#tutorial-on-posix-threads)
+      - [Signals as a Means of Interprocess Communications](#signals-as-a-means-of-interprocess-communications)
+      - [Introduction to Kernel Modules](#introduction-to-kernel-modules)
+      - [Building Embedded Linux File Systems and Kernel using Yocto Build System](#building-embedded-linux-file-systems-and-kernel-using-yocto-build-system)
+      - [Kernel Namespaces and Container Software](#kernel-namespaces-and-container-software)
+      - [Fundamentals of TCP/IP and Socket Programming](#fundamentals-of-tcpip-and-socket-programming)
+  - [Skills Acquired](#skills-acquired)
+  - [Instructor Information](#instructor-information)
 
 ---
 
@@ -45,9 +47,7 @@ Understanding the command line interface is fundamental to working with Linux-ba
 #### Process Management
 
 - **Process Overview:** Understanding the concept of processes in Linux and how they interact with the operating system.
-  
 - **System Calls and Command Line Arguments:** Exploring system calls and their role in process management, along with handling command line arguments in C programs.
-  
 - **Process Creation:** Learning about process creation using functions such as `fork()` and `exec()`.
 
 - **Orphan & Zombie Processes:** Understanding the concepts of orphan and zombie processes and their implications on system resources.
@@ -172,7 +172,3 @@ As a practical application of the concepts learned, we developed a project focus
 **Instructor:** Reda Maher
 
 **LinkedIn:** [Instructor's LinkedIn Profile URL](https://www.linkedin.com/in/reda-maher/)
-
----
-
-The training with STMicroelectronics provided a comprehensive understanding of Linux systems programming and equipped me with essential skills for working with Linux at a low level. The knowledge gained includes process management, file systems, system calls, multi-threading, interprocess communication, kernel modules, containerization, and network programming. This intensive training has prepared me to handle complex Linux programming tasks and contribute effectively in environments that require in-depth knowledge of Linux internals and systems programming.

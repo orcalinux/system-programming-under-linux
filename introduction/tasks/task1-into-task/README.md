@@ -15,12 +15,15 @@ This command uses the `wc` (word count) command with the `-l` option to count th
 When referring to the "prompt before every removal," it typically relates to the safety feature in Unix-like operating systems when using the `rm` (remove) command. When you run `rm` without additional options, some systems prompt you to confirm the deletion of files before proceeding. This is a safety measure to prevent accidental data loss.
 
 For example:
+
 ```bash
 rm file.txt
 ```
+
 This might prompt:
+
 ```
-rm: remove regular file 'file.txt'? 
+rm: remove regular file 'file.txt'?
 ```
 
 ## Alias

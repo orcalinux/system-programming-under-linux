@@ -20,11 +20,13 @@ Pico Shell (Psh) is a simple shell program that provides basic shell functionali
 ## Usage
 
 1. Compile the program:
+
    ```bash
    gcc psh.c commands.c -o psh
    ```
 
 2. Run the compiled executable:
+
    ```bash
    ./psh
    ```
@@ -42,7 +44,7 @@ Pico Shell (Psh) is a simple shell program that provides basic shell functionali
 #include "commands.h"
 
 void echo(char *args[]) {
-    /**< Print each argument separated by a space */ 
+    /**< Print each argument separated by a space */
     for (int i = 1; args[i] != NULL; i++) {
         printf("%s ", args[i]);
     }
@@ -50,10 +52,10 @@ void echo(char *args[]) {
 }
 
 void pwd() {
-    /**< Buffer to store the current working directory */ 
+    /**< Buffer to store the current working directory */
     char buf[100];
 
-    /**< Get the current working directory and print it */ 
+    /**< Get the current working directory and print it */
     if (getcwd(buf, sizeof(buf)) != NULL) {
         printf("%s\n", buf);
     } else {
@@ -62,7 +64,7 @@ void pwd() {
 }
 
 void cd(char *path) {
-    /**< Change the current working directory */ 
+    /**< Change the current working directory */
     if (chdir(path) != 0) {
         perror("chdir");
     }
@@ -92,7 +94,7 @@ void pwd();
  */
 void cd(char *path);
 
-#endif  /**< COMMANDS_H */ 
+#endif  /**< COMMANDS_H */
 ```
 
 ### `psh.c`
@@ -108,14 +110,14 @@ void cd(char *path);
 #include "psh.h"
 
 int main() {
-    char *inputBuffer = NULL; /**< Pointer to store user input */ 
+    char *inputBuffer = NULL; /**< Pointer to store user input */
     size_t bufferSize = 0;  /**< Size of the input buffer */
 
     char **args = NULL; /**< Pointer to store parsed arguments */
     int argCount = 0; /**< Number of parsed arguments */
 
     while (1) {
-        /**< Prompt user to enter a command */ 
+        /**< Prompt user to enter a command */
         getUserInput(&inputBuffer, &bufferSize);
 
         /**< Skip processing if input is empty. */
@@ -123,10 +125,10 @@ int main() {
             continue;
         }
 
-        /**< Extract the command and arguments */ 
+        /**< Extract the command and arguments */
         parseInput(inputBuffer, &args, &argCount);
 
-        /**< Execute the command with the arguments */ 
+        /**< Execute the command with the arguments */
         int ret_val = executeCommand(args[0], args);
         /**< This Command Not Internal -> External Command */
         if(ret_val != 0) {
@@ -150,20 +152,20 @@ int main() {
                 printf("ERROR: I could not get a child\n");
             }
 
-        } 
-        
-        /**< Free the allocated memory for arguments */ 
+        }
+
+        /**< Free the allocated memory for arguments */
         for (int i = 0; i < argCount; i++) {
             free(args[i]);
         }
         free(args);
 
-        /**< Free the allocated memory for inputBuffer */ 
+        /**< Free the allocated memory for inputBuffer */
         free(inputBuffer);
         inputBuffer = NULL;
         bufferSize = 0;
     }
-    
+
     return 0;
 }
 ```
@@ -185,7 +187,7 @@ int main() {
  *
  * @param command The command to be executed.
  * @param args An array of command arguments.
- * 
+ *
  * @return 0 if the command is executed successfully as an internal command, -1 if it's an external command.
  */
 int executeCommand(char *command, char *args[]);
@@ -209,7 +211,7 @@ int executeCommand(char *command, char *args[]);
  * /// Use args and argCount to process the parsed arguments...
  * /// Don't forget to free the allocated memory for args...
  * freeArgs(args, argCount);
- * /// Free the allocated memory for arguments 
+ * /// Free the allocated memory for arguments
  * for (int i = 0; i < argCount; i++) {
  *     free(args[i]);
  * }
@@ -220,13 +222,13 @@ void parseInput(char *input, char ***args, int *argCount);
 
 /**
  * @brief Prompts the user to enter a command and reads the input into a buffer.
- * 
+ *
  * @param[in,out] inputBuffer A pointer to a pointer to the buffer where the input will be stored.
  * @param[in,out] bufferSize A pointer to the size of the buffer.
- * 
+ *
  * @note The function allocates memory for the input buffer if it's NULL or insufficient.
  * @warning The function exits with failure if `getline` fails to read input.
- * 
+ *
  * Example usage:
  * @code{.c}
  * char *inputBuffer = NULL;
