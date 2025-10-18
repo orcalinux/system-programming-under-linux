@@ -348,6 +348,7 @@ g++ communicate_with_client.cpp -o communicate_with_client
 #### How to Test
 
 1. **Run the server**:
+
    ```sh
    ./communicate_with_client
    ```
@@ -355,6 +356,7 @@ g++ communicate_with_client.cpp -o communicate_with_client
 2. **Open another terminal and connect using `nc`**:
 
    - Using `nc`:
+
      ```sh
      nc 127.0.0.1 8080
      ```
@@ -643,6 +645,7 @@ _t serverAddrSize = sizeof(serverAddr);
 ```
 Received from server: HELLO SERVER
 ```
+
 ---
 
 ## Summary

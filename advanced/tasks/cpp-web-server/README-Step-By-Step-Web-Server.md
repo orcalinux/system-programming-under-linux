@@ -291,7 +291,7 @@ int main() {
     serverAddr.sin_port = htons(8080);
 
     // Bind the socket to the address and port
-    if (bind(serverSocket, (sockaddr*)&serverAddr, sizeof(serverAddr)) < 
+    if (bind(serverSocket, (sockaddr*)&serverAddr, sizeof(serverAddr)) <
 
 0) {
         std::cerr << "Failed to bind socket" << std::endl;
@@ -643,7 +643,7 @@ struct HttpRequest {
 
 HttpRequest parseRequest(const std::string& request) {
     std::istringstream stream(request);
-   
+
 
  HttpRequest req;
     std::string line;
