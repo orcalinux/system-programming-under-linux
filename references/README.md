@@ -137,6 +137,12 @@ General Linux learning and administration materials.
   **Used for:** Security-oriented Linux usage.  
   **Knowledge gained:** Ethical hacking techniques, security tools, and defensive Linux practices.
 
+- **[Linux Firewalls: Enhancing Security with nftables and Beyond](./Linux_Guides/Linux-Firewalls-Enhancing-Security-with-nftables-and-Beyond.pdf)**  
+  _Steve Suehring_  
+  Comprehensive guide to Linux firewalls.  
+  **Used for:** Implementing and managing firewalls on Linux systems.  
+  **Knowledge gained:** nftables configuration, firewall rules, and network security practices.
+
 - **[Learning Modern Linux](./Linux_Guides/Learning_Modern_Linux_A_Handbook_for_the_Cloud_Native_Practitioner.pdf)**  
   _Michael Hausenblas_  
   Modern Linux for cloud folks.  
