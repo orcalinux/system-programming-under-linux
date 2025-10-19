@@ -1,0 +1,46 @@
+@startuml Header_Dependencies
+
+' ---- simple, portable styling ----
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 14
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 12
+skinparam Shadowing false
+skinparam ArrowColor #6b7280
+
+' ---- color palette ----
+!define C_API     #e6f3ff
+!define C_CORE    #e8f5e8
+!define C_STRUCT  #fff3cd
+
+' ---- diagram ----
+rectangle "memory_manager_api.h\n(PUBLIC API)" as A C_API
+rectangle "memory_manager.h\n(INTERNAL)" as B C_CORE
+rectangle "glthread.h\n(DATA STRUCTURES)" as C C_STRUCT
+
+A -down-> B
+B -down-> C
+
+note right of A
+User-facing header that defines:
+• XCALLOC, XFREE macros  
+• API for registering data types  
+• Links to internal manager
+end note
+
+note right of B
+Implements core internals:
+• Page management logic  
+• Block allocation & merging  
+• Uses GLThread for free lists
+end note
+
+note right of C
+Provides intrusive linked list macros:
+• Doubly linked node handling  
+• No dynamic allocation  
+• Used across all modules
+end note
+
+@enduml

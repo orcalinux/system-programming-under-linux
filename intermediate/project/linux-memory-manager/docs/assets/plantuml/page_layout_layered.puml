@@ -1,0 +1,59 @@
+@startuml VM_Page_Layout
+
+' ---- portable styling ----
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 14
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 12
+skinparam Shadowing false
+skinparam ArrowColor #6b7280
+
+' ---- Top: vm_page_t header ----
+rectangle "vm_page_t header (typical 64-bit ≈ 32B)" as HDR #e6f3ff
+
+package "Fields (in order)" {
+  rectangle "next : struct vm_page*"    as F1 #f0f7ff
+  rectangle "prev : struct vm_page*"    as F2 #f0f7ff
+  rectangle "pg_family : struct vm_page_family*" as F3 #f0f7ff
+  rectangle "block_size : uint32_t"     as F4 #f0f7ff
+  rectangle "padding (for alignment)"   as F5 #f9fbff
+  F1 -down-> F2
+  F2 -down-> F3
+  F3 -down-> F4
+  F4 -down-> F5
+}
+HDR -down-> F1
+
+' ---- Marker: start of the page body ----
+rectangle "page_memory[0]  →  start of VM page body (SYSTEM_PAGE_SIZE bytes, e.g., 4096)" as START #fff3c4
+F5 -down-> START
+
+' ---- Body: repeating [meta | data] pairs ----
+package "Page Body (repeating blocks)" {
+  rectangle "Block Meta (M bytes) | Data Block (D bytes)" as R1 #ecf6ea
+  rectangle "Block Meta (M bytes) | Data Block (D bytes)" as R2 #ecf6ea
+  rectangle "Block Meta (M bytes) | Data Block (D bytes)" as R3 #ecf6ea
+  R1 -down-> R2
+  R2 -down-> R3
+  note bottom of R3
+    ...
+    Stride per block = M + D
+    Blocks per page  = floor(SYSTEM_PAGE_SIZE / (M + D))
+    Tail (unused)    = SYSTEM_PAGE_SIZE % (M + D)
+  end note
+}
+START -down-> R1
+
+' ---- Reference code (as a note) ----
+note right of HDR
+typedef struct vm_page {
+    struct vm_page *next;
+    struct vm_page *prev;
+    struct vm_page_family *pg_family;
+    uint32_t block_size;
+    char page_memory[0]; // start of page body
+} vm_page_t;
+end note
+
+@enduml

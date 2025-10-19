@@ -1,0 +1,31 @@
+@startuml Multiple_List_Participation
+
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 14
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 12
+skinparam Shadowing false
+skinparam ArrowColor #6b7280
+
+' --- Color Palette ---
+!define C_EMP #e6f3ff
+!define C_LIST #e8f5e8
+
+' --- Top: The structure ---
+rectangle "Employee Structure\n{name, id, age_list_node, dept_list_node}" as EMP C_EMP
+
+' --- Two target lists ---
+rectangle "Age-sorted List" as AGE C_LIST
+rectangle "Department List" as DEPT C_LIST
+
+' --- Arrows to both lists ---
+EMP -down-> AGE : participates via\nage_list_node
+EMP -down-> DEPT : participates via\ndept_list_node
+
+note bottom
+A single structure can appear in multiple linked lists simultaneously.
+Each embedded node connects it into a different logical chain.
+end note
+
+@enduml

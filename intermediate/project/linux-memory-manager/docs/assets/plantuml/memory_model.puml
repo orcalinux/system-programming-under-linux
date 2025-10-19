@@ -1,0 +1,28 @@
+@startuml Memory_Model
+
+' --------- simple, portable styling ----------
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 14
+skinparam ArrowColor #6b7280
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 12
+
+' --------- diagram ----------
+rectangle "Kernel Virtual Memory" as K #e6f3ff
+rectangle "VM Page (4KB)" as P #e8f5e8
+K -down-> P
+
+package "Blocks within VM Page (repeating)" {
+  rectangle "Block Meta Data | Data Block" as B1 #fff3cd
+  rectangle "Block Meta Data | Data Block" as B2 #fff3cd
+  rectangle "Block Meta Data | Data Block" as B3 #fff3cd
+
+  B1 -down-> B2
+  B2 -down-> B3
+
+  note bottom of B3 : ...
+}
+P -down-> B1
+
+@enduml

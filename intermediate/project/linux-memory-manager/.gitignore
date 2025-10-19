@@ -1,0 +1,58 @@
+===================================================================
+Build artifacts
+===================================================================
+These are directories and files created by your Makefile.
+Ignoring the entire directories is the cleanest approach.
+
+bin/
+lib/
+Also ignore common object and executable file extensions,
+just in case they are created elsewhere.
+
+*.o
+*.exe
+*.out
+*.elf
+===================================================================
+Libraries
+===================================================================
+Your Makefile generates static (.a) and shared (.so) libraries
+in the 'lib/' directory, which is already ignored above.
+These lines are for extra safety.
+
+*.a
+*.so
+*.dll
+*.dylib
+# ===================================================================
+# Documentation
+# ===================================================================
+# Ignore the directory where Doxygen generates the HTML output.
+# We chose 'html/' as the modern standard. I've also included
+# the old path from your Makefile's clean rule.
+
+html/
+latex/
+man/
+docs/doxygen_output/
+!docs/html/
+===================================================================
+IDE / Editor Configuration Files
+===================================================================
+Ignore settings and workspace files from common editors.
+
+.vscode/
+.idea/
+*.swp
+*~
+.cproject
+.project
+===================================================================
+Miscellaneous
+===================================================================
+Ignore crash dump files (common on Linux)
+
+core
+Ignore log files
+
+*.log

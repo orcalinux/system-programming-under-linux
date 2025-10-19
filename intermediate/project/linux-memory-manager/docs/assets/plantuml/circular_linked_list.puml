@@ -1,0 +1,36 @@
+@startuml Circular_Linked_List
+
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 14
+skinparam ArrowColor #6b7280
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 12
+skinparam Shadowing false
+
+' --- color palette ---
+!define C1 #667eea
+!define C2 #48bb78
+!define C3 #ed8936
+!define C4 #f56565
+
+' --- nodes ---
+rectangle "Node 1 (Head)" as N1 C1
+rectangle "Node 2" as N2 C2
+rectangle "Node 3" as N3 C3
+rectangle "Node 4 (Tail)" as N4 C4
+
+' --- arrows ---
+N1 -down-> N2 : next
+N2 -down-> N3 : next
+N3 -down-> N4 : next
+N4 -up-> N1 : back to head
+
+note bottom
+Each node has:
+ • pointer to next
+ • pointer to prev
+The last node points back to the first, forming a closed loop.
+end note
+
+@enduml

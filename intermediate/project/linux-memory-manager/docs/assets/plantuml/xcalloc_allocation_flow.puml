@@ -1,0 +1,39 @@
+@startuml XCALLOC_Allocation_Flow
+
+skinparam backgroundColor #FFFFFF
+skinparam activity {
+  FontName "Segoe UI"
+  FontSize 14
+  BorderColor #2F3B4A
+  StartColor #e6efff
+  EndColor   #e6efff
+  BarColor   #6b7280
+
+  BackgroundColor<<HEAD>>     #e6efff
+  BackgroundColor<<QUESTION>> #fff3c4
+  BackgroundColor<<YES1>>     #d9fce7
+  BackgroundColor<<YES2>>     #c8f7da
+  BackgroundColor<<NO1>>      #ffe3e3
+  BackgroundColor<<NO2>>      #ffdada
+  BackgroundColor<<NO3>>      #ffc6c6
+}
+
+start
+:Application calls XCALLOC; <<HEAD>>
+:Find Page Family; <<HEAD>>
+
+if (Free block available?) then (Yes)
+  :Get block from free list; <<YES1>>
+  :Mark block as used; <<YES2>>
+  :Return pointer to application; <<YES2>>
+  stop
+else (No)
+  :Allocate new VM page; <<NO1>>
+  :Initialize page and\nsplit into blocks; <<NO2>>
+  :Add new blocks to free list; <<NO3>>
+  :Get block from free list; <<YES1>>
+  :Mark block as used; <<YES2>>
+  :Return pointer to application; <<YES2>>
+  stop
+endif
+@enduml

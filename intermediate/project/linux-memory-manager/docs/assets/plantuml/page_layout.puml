@@ -1,0 +1,26 @@
+@startuml Page_Layout_Layered
+
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 16
+skinparam RectangleBorderColor #2F3B4A
+skinparam RoundCorner 14
+skinparam Shadowing false
+skinparam ArrowColor #9aa0a6
+
+rectangle "<color:white><b>4096 bytes (SYSTEM_PAGE_SIZE)</b></color>" as SIZE #2f2f2f
+rectangle "<b>vm_page_t metadata</b>" as VMMETA #e6f3ff
+SIZE --> VMMETA
+
+package "Page Body" {
+  rectangle "Block Meta | Data Block" as R1 #ecf6ea
+  rectangle "Block Meta | Data Block" as R2 #ecf6ea
+  R1 --> R2
+
+  ' <<< This is the callout note you want >>>
+  note bottom of R2 #fff8cc
+    ...
+  end note
+}
+VMMETA --> R1
+@enduml
