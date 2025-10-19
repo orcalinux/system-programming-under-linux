@@ -1,5 +1,7 @@
 <map id="include/datatype_size_lookup.h" name="include/datatype_size_lookup.h">
-<area shape="rect" id="node1" title="Header file for data type size lookup functionality and mappings." alt="" coords="119,5,267,47"/>
-<area shape="rect" id="node2" href="$datatype__size__lookup_8c.html" title="Implementation file for data type size lookup functionality." alt="" coords="5,95,187,121"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="211,95,370,121"/>
+<area shape="rect" id="Node000001" title="Header file for data type size lookup functionality and mappings." alt="" coords="127,5,291,45"/>
+<area shape="rect" id="Node000002" href="$datatype__size__lookup_8c.html" title="Implementation file for data type size lookup functionality." alt="" coords="5,93,203,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,56,121,95,118,91,171,51"/>
+<area shape="rect" id="Node000003" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="227,93,402,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,51,300,91,297,95,244,56"/>
 </map>

@@ -1,6 +1,7 @@
 <map id="mm_instantiate_new_page_family" name="mm_instantiate_new_page_family">
-<area shape="rect" id="node1" title="Instantiates a new page family for a memory structure." alt="" coords="5,57,148,98"/>
-<area shape="rect" id="node2" href="$glthread_8h.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initialize a glthread_t structure." alt="" coords="230,5,322,32"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html#a64d262ebef165f5249f21946be39c80e" title="Looks up a page family by its name." alt="" coords="207,57,345,98"/>
-<area shape="rect" id="node4" href="$memory__manager_8c.html#a52375cf39c67eb0c135c12eb38ddf66f" title=" " alt="" coords="196,122,356,163"/>
+<area shape="rect" id="Node000001" title="Instantiates a new page family for a memory structure." alt="" coords="5,27,164,67"/>
+<area shape="rect" id="Node000002" href="$glthread_8c.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initialize a glthread_t structure." alt="" coords="237,5,341,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,33,222,25,223,30,165,39"/>
+<area shape="rect" id="Node000003" href="$memory__manager_8c.html#ab9910db7228c29ee672139e284cd6cec" title="Looks up a page family by its name." alt="" coords="212,55,365,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,56,198,60,198,66,164,61"/>
 </map>

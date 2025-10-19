@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['remove_5fglthread_191',['remove_glthread',['../glthread_8h.html#a935ecd20646a46a7b84dbbeee4abd76d',1,'remove_glthread(glthread_t *glthread):&#160;glthread.c'],['../glthread_8c.html#a6a385ab1c9d4f03191dcae2d1147c349',1,'remove_glthread(glthread_t *curr_glthread):&#160;glthread.c']]]
+  ['xcalloc_0',['xcalloc',['../memory__manager__api_8h.html#a99f5a0d88caf5abe330155eb4e2d7aac',1,'xcalloc(char *struct_name, int units):&#160;memory_manager.c'],['../memory__manager_8c.html#a99f5a0d88caf5abe330155eb4e2d7aac',1,'xcalloc(char *struct_name, int units):&#160;memory_manager.c']]],
+  ['xfree_1',['xfree',['../memory__manager__api_8h.html#ae075bb556abb4342aedf495ddb8d390a',1,'xfree(void *app_data):&#160;memory_manager.c'],['../memory__manager_8c.html#ae075bb556abb4342aedf495ddb8d390a',1,'xfree(void *app_data):&#160;memory_manager.c']]]
 ];

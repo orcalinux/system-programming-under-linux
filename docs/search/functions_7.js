@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parse_5fstruct_5fname_190',['parse_struct_name',['../parse__datatype_8h.html#a45f2370263142bb7c955a543c7ea284e',1,'parse_struct_name(char *struct_name, char *buffer, uint8_t *error_flag):&#160;parse_datatype.c'],['../parse__datatype_8c.html#a45f2370263142bb7c955a543c7ea284e',1,'parse_struct_name(char *struct_name, char *buffer, uint8_t *error_flag):&#160;parse_datatype.c']]]
+  ['remove_5fglthread_0',['remove_glthread',['../glthread_8h.html#a935ecd20646a46a7b84dbbeee4abd76d',1,'remove_glthread(glthread_t *glthread):&#160;glthread.c'],['../glthread_8c.html#a6a385ab1c9d4f03191dcae2d1147c349',1,'remove_glthread(glthread_t *curr_glthread):&#160;glthread.c']]]
 ];

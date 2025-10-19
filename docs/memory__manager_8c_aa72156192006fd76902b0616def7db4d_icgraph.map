@@ -1,9 +1,0 @@
-<map id="mm_add_free_block_meta_data_to_free_block_list" name="mm_add_free_block_meta_data_to_free_block_list">
-<area shape="rect" id="node1" title=" " alt="" coords="549,57,724,98"/>
-<area shape="rect" id="node2" href="$memory__manager_8c.html#a617a6a57117c09b033035922950095ee" title=" " alt="" coords="321,5,501,32"/>
-<area shape="rect" id="node5" href="$memory__manager_8c.html#aa1a17c04f785d5504f86d5c3cebb68d8" title=" " alt="" coords="352,123,471,149"/>
-<area shape="rect" id="node7" href="$memory__manager_8c.html#ab335253cb154c4adb2beb3cea638fb3c" title=" " alt="" coords="339,57,483,98"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html#a2eb03d198590833c575a105c856ecfbb" title=" " alt="" coords="116,27,273,69"/>
-<area shape="rect" id="node4" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,35,68,61"/>
-<area shape="rect" id="node6" href="$memory__manager__api_8h.html#ae075bb556abb4342aedf495ddb8d390a" title="Frees memory allocated by the memory manager." alt="" coords="169,123,220,149"/>
-</map>

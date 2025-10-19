@@ -1,4 +1,5 @@
 <map id="glthread_add_last" name="glthread_add_last">
-<area shape="rect" id="node1" title="Add a new glthread_t structure at the last position of a linked list." alt="" coords="5,5,129,32"/>
-<area shape="rect" id="node2" href="$glthread_8c.html#aa63bf952adace7bfd5bc0cdf970eb4db" title="Adds a new node after the specified current node in the threaded linked list." alt="" coords="177,5,305,32"/>
+<area shape="rect" id="Node000001" title="Add a new glthread_t structure at the last position of a linked list." alt="" coords="5,5,144,31"/>
+<area shape="rect" id="Node000002" href="$glthread_8c.html#aa63bf952adace7bfd5bc0cdf970eb4db" title="Adds a new glthread as the next element." alt="" coords="192,5,335,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,15,179,15,179,21,144,21"/>
 </map>

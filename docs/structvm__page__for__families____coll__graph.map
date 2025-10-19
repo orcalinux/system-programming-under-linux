@@ -1,7 +1,17 @@
 <map id="vm_page_for_families_" name="vm_page_for_families_">
-<area shape="rect" id="node1" title="Structure representing a virtual memory page containing families of memory structures." alt="" coords="5,329,161,407"/>
-<area shape="rect" id="node2" href="$structvm__page__family__.html" title="Structure representing a page family in virtual memory." alt="" coords="184,167,308,259"/>
-<area shape="rect" id="node4" href="$structvm__page__.html" title="Structure representing a virtual memory page." alt="" coords="264,329,380,407"/>
-<area shape="rect" id="node3" href="$structglthread__.html" title="Structure representing a generic linked list node for threaded linking." alt="" coords="283,5,358,83"/>
-<area shape="rect" id="node5" href="$structblock__meta__data__.html" title="Structure representing metadata for a memory block." alt="" coords="345,160,473,267"/>
+<area shape="rect" id="Node000001" title="Structure representing a virtual memory page containing families of memory structures." alt="" coords="5,206,180,231"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="195,210,207,219,199,226,181,229,180,224,196,221,201,219,193,215"/>
+<area shape="rect" id="Node000002" href="$structvm__page__family__.html" title="Structure representing a page family in virtual memory." alt="" coords="185,114,323,139"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="172,138,140,149,113,167,101,186,96,206,91,205,96,184,109,163,138,145,170,133"/>
+<area shape="rect" id="Node000003" href="$structvm__page__.html" title="Structure representing a virtual memory page." alt="" coords="292,206,381,231"/>
+<area shape="poly" id="edge5_Node000003_Node000002" title=" " alt="" coords="238,152,232,166,235,179,246,190,260,199,292,210,291,215,258,204,243,195,230,181,227,165,233,150"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="324,195,305,167,273,142,277,137,309,164,328,192"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="396,209,404,212,408,219,400,227,382,230,381,225,397,222,403,218,401,216,394,214"/>
+<area shape="rect" id="Node000004" href="$structblock__meta__data__.html" title="Structure representing metadata for a memory block." alt="" coords="357,114,498,139"/>
+<area shape="poly" id="edge6_Node000003_Node000004" title=" " alt="" coords="416,153,395,182,359,208,356,204,391,178,412,150"/>
+<area shape="poly" id="edge7_Node000004_Node000004" title=" " alt="" coords="513,118,525,127,516,134,499,137,498,132,514,130,519,127,510,123"/>
+<area shape="rect" id="Node000005" href="$structglthread__.html" title="Structure representing a generic linked list node for threaded linking." alt="" coords="294,7,377,33"/>
+<area shape="poly" id="edge10_Node000002_Node000005" title=" " alt="" coords="283,41,261,60,256,73,253,87,254,114,249,114,248,87,251,71,257,57,280,37"/>
+<area shape="poly" id="edge8_Node000004_Node000005" title=" " alt="" coords="367,39,388,57,409,86,424,112,419,115,405,89,384,60,364,43"/>
+<area shape="poly" id="edge9_Node000005_Node000005" title=" " alt="" coords="391,9,400,13,403,20,395,30,377,33,376,27,392,25,398,20,396,17,389,14"/>
 </map>

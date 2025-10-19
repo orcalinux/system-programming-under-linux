@@ -1,4 +1,5 @@
 <map id="mm_print_memory_usage" name="mm_print_memory_usage">
-<area shape="rect" id="node1" title="Prints memory usage details related to the memory manager." alt="" coords="5,5,177,32"/>
-<area shape="rect" id="node2" href="$memory__manager_8c.html#a0a1f3a9753facffae61a89ed4ad4ff68" title="Prints details of a virtual memory page." alt="" coords="225,5,407,32"/>
+<area shape="rect" id="Node000001" title="Prints memory usage for a structure type." alt="" coords="5,5,199,31"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html#a0a1f3a9753facffae61a89ed4ad4ff68" title="Prints details of a virtual memory page." alt="" coords="247,5,449,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,15,233,15,233,21,199,21"/>
 </map>

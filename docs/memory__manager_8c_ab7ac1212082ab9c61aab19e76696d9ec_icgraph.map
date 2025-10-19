@@ -1,6 +1,0 @@
-<map id="mm_return_vm_page_to_kernel" name="mm_return_vm_page_to_kernel">
-<area shape="rect" id="node1" title=" " alt="" coords="521,5,684,47"/>
-<area shape="rect" id="node2" href="$memory__manager_8h.html#a3c0f19fa657602a76893a7f53e9f5222" title="Deletes and frees a virtual memory page." alt="" coords="271,13,473,39"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html#aa1a17c04f785d5504f86d5c3cebb68d8" title=" " alt="" coords="104,13,223,39"/>
-<area shape="rect" id="node4" href="$memory__manager__api_8h.html#ae075bb556abb4342aedf495ddb8d390a" title="Frees memory allocated by the memory manager." alt="" coords="5,13,56,39"/>
-</map>

@@ -1,4 +1,5 @@
 <map id="include/memory_manager.h" name="include/memory_manager.h">
-<area shape="rect" id="node1" title="Header file for the Memory Manager module." alt="" coords="5,5,187,32"/>
-<area shape="rect" id="node2" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="17,80,175,107"/>
+<area shape="rect" id="Node000001" title="Header file for the Memory Manager module." alt="" coords="5,5,209,31"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="20,79,195,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,44,110,79,105,79,105,44"/>
 </map>

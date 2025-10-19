@@ -1,8 +1,13 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title="The main function." alt="" coords="5,81,56,108"/>
-<area shape="rect" id="node2" href="$memory__manager__api_8h.html#a0d0d58e2b3f34ada92ab7889d013e717" title="Initializes the memory manager." alt="" coords="156,5,224,32"/>
-<area shape="rect" id="node3" href="$memory__manager__api_8h.html#abc2214ca18f00171e96262019bb84919" title="Prints information about the memory block usage." alt="" coords="112,56,268,83"/>
-<area shape="rect" id="node4" href="$memory__manager__api_8h.html#a0107300bfc4db599504abef54c980fa6" title="Prints memory usage details related to the memory manager." alt="" coords="104,107,276,133"/>
-<area shape="rect" id="node6" href="$memory__manager__api_8h.html#a2c4fac0b5d1557530ea878cf4b84082b" title="Prints all registered page families." alt="" coords="120,158,260,199"/>
-<area shape="rect" id="node5" href="$memory__manager_8c.html#a0a1f3a9753facffae61a89ed4ad4ff68" title="Prints details of a virtual memory page." alt="" coords="324,107,505,133"/>
+<area shape="rect" id="Node000001" title="The main function." alt="" coords="5,80,60,105"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html#a0d0d58e2b3f34ada92ab7889d013e717" title="Initializes the memory manager." alt="" coords="167,5,243,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,77,74,58,107,40,152,25,154,30,109,44,77,62,51,82"/>
+<area shape="rect" id="Node000003" href="$memory__manager_8c.html#abc2214ca18f00171e96262019bb84919" title="Prints information about the memory block usage." alt="" coords="118,55,291,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,86,105,79,105,85,60,91"/>
+<area shape="rect" id="Node000004" href="$memory__manager_8c.html#a0107300bfc4db599504abef54c980fa6" title="Prints memory usage details related to the memory manager." alt="" coords="108,104,301,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,94,101,99,100,105,60,99"/>
+<area shape="rect" id="Node000006" href="$memory__manager_8c.html#a2c4fac0b5d1557530ea878cf4b84082b" title="Prints all registered page families." alt="" coords="125,154,284,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="52,103,109,138,127,146,125,151,107,143,50,108"/>
+<area shape="rect" id="Node000005" href="$memory__manager_8c.html#a0a1f3a9753facffae61a89ed4ad4ff68" title="Prints details of a virtual memory page." alt="" coords="349,104,552,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="301,114,336,114,336,119,301,119"/>
 </map>

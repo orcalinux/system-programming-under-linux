@@ -1,4 +1,5 @@
 <map id="delete_glthread_list" name="delete_glthread_list">
-<area shape="rect" id="node1" title="Delete all glthread_t structures in a linked list." alt="" coords="5,5,140,32"/>
-<area shape="rect" id="node2" href="$glthread_8c.html#a6a385ab1c9d4f03191dcae2d1147c349" title="Removes the specified node from the threaded linked list." alt="" coords="188,5,307,32"/>
+<area shape="rect" id="Node000001" title="Delete all glthread_t structures in a linked list." alt="" coords="5,5,156,31"/>
+<area shape="rect" id="Node000002" href="$glthread_8c.html#a6a385ab1c9d4f03191dcae2d1147c349" title="Removes a glthread from the list." alt="" coords="204,5,337,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,15,190,15,190,21,156,21"/>
 </map>

@@ -1,13 +1,11 @@
 <map id="init_glthread" name="init_glthread">
-<area shape="rect" id="node1" title="Initialize a glthread_t structure." alt="" coords="973,102,1065,129"/>
-<area shape="rect" id="node2" href="$memory__manager_8h.html#aebb395354ed1154e7b06212096990f52" title="Allocates a new virtual memory page for a given page family." alt="" coords="573,129,700,155"/>
-<area shape="rect" id="node6" href="$glthread_8h.html#a2f6336d160a55d3adecb11dace34152a" title="Insert a glthread_t structure into a sorted linked list based on priority." alt="" coords="772,73,925,99"/>
-<area shape="rect" id="node10" href="$memory__manager_8c.html#ab335253cb154c4adb2beb3cea638fb3c" title=" " alt="" coords="339,168,483,209"/>
-<area shape="rect" id="node11" href="$memory__manager__api_8h.html#a3ed96883ba6c4711318dbae3f5941bbf" title="Instantiates a new page family for a memory structure." alt="" coords="777,5,920,47"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html#a617a6a57117c09b033035922950095ee" title=" " alt="" coords="321,117,501,143"/>
-<area shape="rect" id="node4" href="$memory__manager_8c.html#a2eb03d198590833c575a105c856ecfbb" title=" " alt="" coords="116,115,273,156"/>
-<area shape="rect" id="node5" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,63,68,90"/>
-<area shape="rect" id="node7" href="$memory__manager_8c.html#aa72156192006fd76902b0616def7db4d" title=" " alt="" coords="549,63,724,104"/>
-<area shape="rect" id="node8" href="$memory__manager_8c.html#aa1a17c04f785d5504f86d5c3cebb68d8" title=" " alt="" coords="352,65,471,91"/>
-<area shape="rect" id="node9" href="$memory__manager__api_8h.html#ae075bb556abb4342aedf495ddb8d390a" title="Frees memory allocated by the memory manager." alt="" coords="169,63,220,90"/>
+<area shape="rect" id="Node000001" title="Initialize a glthread_t structure." alt="" coords="344,55,448,80"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html#acf4906c4a2cd80f10a570cc1c7411111" title="Allocates a new virtual memory page for a given page family." alt="" coords="138,5,279,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,54,257,33,259,28,335,49"/>
+<area shape="rect" id="Node000003" href="$glthread_8c.html#a2f6336d160a55d3adecb11dace34152a" title="Insert a glthread_t structure into a sorted linked list based on priority." alt="" coords="121,55,296,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="330,70,296,70,296,65,330,65"/>
+<area shape="rect" id="Node000004" href="$memory__manager_8c.html#a3ed96883ba6c4711318dbae3f5941bbf" title="Instantiates a new page family for a memory structure." alt="" coords="129,105,288,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="341,87,275,107,274,102,340,82"/>
+<area shape="rect" id="Node000005" href="$memory__manager_8c.html#a99f5a0d88caf5abe330155eb4e2d7aac" title="Allocates and initializes memory for an array of structures." alt="" coords="5,112,73,137"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="115,127,73,127,73,122,115,122"/>
 </map>

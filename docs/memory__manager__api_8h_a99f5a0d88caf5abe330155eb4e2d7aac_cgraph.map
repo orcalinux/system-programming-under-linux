@@ -1,0 +1,14 @@
+<map id="xcalloc" name="xcalloc">
+<area shape="rect" id="Node000001" title="Allocates and initializes memory for an array of structures." alt="" coords="5,85,73,111"/>
+<area shape="rect" id="Node000002" href="$datatype__size__lookup_8c.html#a65d92569472aecd58e18e5afaa9b41ea" title="Gets the size of a data type by its name." alt="" coords="121,5,283,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,83,120,48,152,33,154,38,123,52,61,88"/>
+<area shape="rect" id="Node000003" href="$memory__manager_8c.html#ab9910db7228c29ee672139e284cd6cec" title="Looks up a page family by its name." alt="" coords="331,49,484,89"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="74,93,317,73,317,78,74,98"/>
+<area shape="rect" id="Node000004" href="$memory__manager_8c.html#a3ed96883ba6c4711318dbae3f5941bbf" title="Instantiates a new page family for a memory structure." alt="" coords="123,106,281,146"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="74,101,109,107,109,113,73,106"/>
+<area shape="rect" id="Node000006" href="$parse__datatype_8c.html#a951929580735bed45579ce79ea1d6c71" title="Parses the name of a struct from a string." alt="" coords="129,171,275,196"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="57,109,86,133,123,156,140,164,138,168,120,160,83,137,53,113"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="273,103,321,90,323,95,275,109"/>
+<area shape="rect" id="Node000005" href="$glthread_8c.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initialize a glthread_t structure." alt="" coords="355,113,459,139"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="282,123,341,123,341,129,282,129"/>
+</map>

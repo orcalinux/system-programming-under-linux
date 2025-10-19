@@ -1,4 +1,5 @@
 <map id="include/colors.h" name="include/colors.h">
-<area shape="rect" id="node1" title="Header file for ANSI color definitions." alt="" coords="28,5,141,32"/>
-<area shape="rect" id="node2" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="Node000001" title="Header file for ANSI color definitions." alt="" coords="31,5,155,31"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="5,79,180,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,90,79,90,44"/>
 </map>

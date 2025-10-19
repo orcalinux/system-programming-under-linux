@@ -1,7 +1,11 @@
 <map id="src/datatype_size_lookup.c" name="src/datatype_size_lookup.c">
-<area shape="rect" id="node1" title="Implementation file for data type size lookup functionality." alt="" coords="39,5,220,32"/>
-<area shape="rect" id="node2" href="$datatype__size__lookup_8h.html" title="Header file for data type size lookup functionality and mappings." alt="" coords="50,80,209,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,155,75,181"/>
-<area shape="rect" id="node4" title=" " alt="" coords="99,155,160,181"/>
-<area shape="rect" id="node5" title=" " alt="" coords="185,155,250,181"/>
+<area shape="rect" id="Node000001" title="Implementation file for data type size lookup functionality." alt="" coords="39,5,236,31"/>
+<area shape="rect" id="Node000002" href="$datatype__size__lookup_8h.html" title="Header file for data type size lookup functionality and mappings." alt="" coords="50,79,225,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,31,140,65,135,65,135,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,80,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,106,71,146,68,141,121,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,152,171,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="140,104,140,138,135,138,135,104"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="195,152,266,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="154,102,206,141,203,146,151,106"/>
 </map>

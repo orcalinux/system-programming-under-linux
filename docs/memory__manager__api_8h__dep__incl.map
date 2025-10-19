@@ -1,5 +1,7 @@
 <map id="include/memory_manager_api.h" name="include/memory_manager_api.h">
-<area shape="rect" id="node1" title="Header file for the Memory Manager API." alt="" coords="82,5,253,47"/>
-<area shape="rect" id="node2" href="$memory__manager__test_8c.html" title="Test file for Memory Manager functionality." alt="" coords="5,95,153,136"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="177,102,336,129"/>
+<area shape="rect" id="Node000001" title="Header file for the Memory Manager API." alt="" coords="93,5,287,45"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html" title="Implementation file for the Memory Manager module." alt="" coords="5,101,180,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,57,108,102,104,98,156,53"/>
+<area shape="rect" id="Node000003" href="$memory__manager__test_8c.html" title="Test file for Memory Manager functionality." alt="" coords="205,93,370,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,52,268,91,264,95,220,56"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="is_number" name="is_number">
-<area shape="rect" id="node1" title="Checks if a string represents a number." alt="" coords="297,5,380,32"/>
-<area shape="rect" id="node2" href="$parse__datatype_8h.html#a45f2370263142bb7c955a543c7ea284e" title="Parses the name of a struct from a string." alt="" coords="116,5,249,32"/>
-<area shape="rect" id="node3" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,5,68,32"/>
-</map>

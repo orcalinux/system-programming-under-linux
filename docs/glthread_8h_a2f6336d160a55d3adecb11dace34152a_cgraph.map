@@ -1,5 +1,7 @@
 <map id="glthread_priority_insert" name="glthread_priority_insert">
-<area shape="rect" id="node1" title="Insert a glthread_t structure into a sorted linked list based on priority." alt="" coords="5,31,159,57"/>
-<area shape="rect" id="node2" href="$glthread_8c.html#aa63bf952adace7bfd5bc0cdf970eb4db" title="Adds a new node after the specified current node in the threaded linked list." alt="" coords="207,5,335,32"/>
-<area shape="rect" id="node3" href="$glthread_8c.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initialize a glthread_t structure." alt="" coords="225,56,317,83"/>
+<area shape="rect" id="Node000001" title="Insert a glthread_t structure into a sorted linked list based on priority." alt="" coords="5,31,180,56"/>
+<area shape="rect" id="Node000002" href="$glthread_8c.html#aa63bf952adace7bfd5bc0cdf970eb4db" title="Adds a new glthread as the next element." alt="" coords="228,5,371,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,30,214,26,214,31,181,35"/>
+<area shape="rect" id="Node000003" href="$glthread_8c.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initializes a generic linked list thread." alt="" coords="247,55,351,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,51,233,57,233,62,180,56"/>
 </map>

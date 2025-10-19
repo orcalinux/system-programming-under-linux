@@ -1,0 +1,8 @@
+<map id="lookup_page_family_by_name" name="lookup_page_family_by_name">
+<area shape="rect" id="Node000001" title="Looks up a page family by its name." alt="" coords="328,35,481,75"/>
+<area shape="rect" id="Node000002" href="$memory__manager_8c.html#a3ed96883ba6c4711318dbae3f5941bbf" title="Instantiates a new page family for a memory structure." alt="" coords="121,5,280,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="314,44,280,39,281,34,315,39"/>
+<area shape="rect" id="Node000003" href="$memory__manager_8c.html#a99f5a0d88caf5abe330155eb4e2d7aac" title="Allocates and initializes memory for an array of structures." alt="" coords="5,42,73,67"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="314,59,280,60,121,60,74,59,74,53,121,55,280,55,314,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,45,74,51,73,46,107,40"/>
+</map>

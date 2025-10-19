@@ -1,7 +1,0 @@
-<map id="mm_add_free_block_meta_data_to_free_block_list" name="mm_add_free_block_meta_data_to_free_block_list">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,180,76"/>
-<area shape="rect" id="node2" href="$memory__manager_8c.html#a5987bb26622d19dcd8ecfd1416a7f3c6" title=" " alt="" coords="228,5,391,47"/>
-<area shape="rect" id="node3" href="$glthread_8h.html#a2f6336d160a55d3adecb11dace34152a" title="Insert a glthread_t structure into a sorted linked list based on priority." alt="" coords="233,71,386,98"/>
-<area shape="rect" id="node4" href="$glthread_8c.html#aa63bf952adace7bfd5bc0cdf970eb4db" title="Adds a new node after the specified current node in the threaded linked list." alt="" coords="439,46,567,73"/>
-<area shape="rect" id="node5" href="$glthread_8c.html#a9e4b763220b1c69da2d9e9f191506f89" title="Initialize a glthread_t structure." alt="" coords="457,97,549,123"/>
-</map>

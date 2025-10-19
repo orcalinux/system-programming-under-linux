@@ -1,5 +1,0 @@
-<map id="lookup_page_family_by_name" name="lookup_page_family_by_name">
-<area shape="rect" id="node1" title="Looks up a page family by its name." alt="" coords="307,35,444,76"/>
-<area shape="rect" id="node2" href="$memory__manager__api_8h.html#a3ed96883ba6c4711318dbae3f5941bbf" title="Instantiates a new page family for a memory structure." alt="" coords="116,5,259,47"/>
-<area shape="rect" id="node3" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,42,68,69"/>
-</map>

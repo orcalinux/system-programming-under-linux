@@ -1,4 +1,5 @@
 <map id="mm_print_registered_page_families" name="mm_print_registered_page_families">
-<area shape="rect" id="node1" title="Prints all registered page families." alt="" coords="104,5,244,47"/>
-<area shape="rect" id="node2" href="$memory__manager__test_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The main function." alt="" coords="5,13,56,39"/>
+<area shape="rect" id="Node000001" title="Prints registered page families." alt="" coords="108,5,267,45"/>
+<area shape="rect" id="Node000002" href="$memory__manager__test_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The main function." alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
 </map>

@@ -1,4 +1,7 @@
 <map id="block_meta_data_" name="block_meta_data_">
-<area shape="rect" id="node1" title="Structure representing metadata for a memory block." alt="" coords="5,145,133,252"/>
-<area shape="rect" id="node2" href="$structglthread__.html" title="Structure representing a generic linked list node for threaded linking." alt="" coords="32,5,107,83"/>
+<area shape="rect" id="Node000001" title="Structure representing metadata for a memory block." alt="" coords="5,99,147,125"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="162,103,173,112,165,120,147,123,147,117,163,115,168,112,159,108"/>
+<area shape="rect" id="Node000002" href="$structglthread__.html" title="Structure representing a generic linked list node for threaded linking." alt="" coords="35,7,117,33"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="79,47,79,99,73,99,73,47"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="132,10,140,13,144,20,136,29,118,31,117,26,133,24,139,20,137,18,130,15"/>
 </map>

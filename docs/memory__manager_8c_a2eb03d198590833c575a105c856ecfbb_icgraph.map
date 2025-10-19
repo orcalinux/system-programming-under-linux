@@ -1,4 +1,0 @@
-<map id="mm_allocate_free_data_block" name="mm_allocate_free_data_block">
-<area shape="rect" id="node1" title=" " alt="" coords="116,5,273,47"/>
-<area shape="rect" id="node2" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,13,68,39"/>
-</map>

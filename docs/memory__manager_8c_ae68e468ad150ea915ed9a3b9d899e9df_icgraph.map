@@ -1,7 +1,0 @@
-<map id="mm_max_page_allocatable_memory" name="mm_max_page_allocatable_memory">
-<area shape="rect" id="node1" title=" " alt="" coords="724,5,904,47"/>
-<area shape="rect" id="node2" href="$memory__manager_8h.html#aebb395354ed1154e7b06212096990f52" title="Allocates a new virtual memory page for a given page family." alt="" coords="549,13,676,39"/>
-<area shape="rect" id="node3" href="$memory__manager_8c.html#a617a6a57117c09b033035922950095ee" title=" " alt="" coords="321,13,501,39"/>
-<area shape="rect" id="node4" href="$memory__manager_8c.html#a2eb03d198590833c575a105c856ecfbb" title=" " alt="" coords="116,5,273,47"/>
-<area shape="rect" id="node5" href="$memory__manager__api_8h.html#a22486940fff22d18c1c65122b4b5235f" title="Allocates and initializes memory for an array of structures." alt="" coords="5,13,68,39"/>
-</map>

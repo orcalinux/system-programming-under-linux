@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['colors_2eh_142',['colors.h',['../colors_8h.html',1,'']]]
+  ['api_5freference_2emd_0',['api_reference.md',['../api__reference_8md.html',1,'']]],
+  ['architecture_2emd_1',['architecture.md',['../architecture_8md.html',1,'']]]
 ];
